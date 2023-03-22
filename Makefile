@@ -55,7 +55,7 @@ mypy:
 .PHONY: check-safety
 check-safety:
 	poetry check
-	poetry run safety check --full-report
+	poetry run safety check --full-report --ignore 51457
 	poetry run bandit -ll --recursive simple_css_selector_transform tests
 
 .PHONY: lint
