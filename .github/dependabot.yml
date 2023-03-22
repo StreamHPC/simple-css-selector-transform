@@ -30,6 +30,9 @@ updates:
       interval: "weekly"
     allow:
       - dependency-type: "all"
+    ignore:
+      # The dockerfile is based on the minimum version supported
+      - dependency-name: python
     commit-message:
       prefix: ":arrow_up:"
     open-pull-requests-limit: 50
