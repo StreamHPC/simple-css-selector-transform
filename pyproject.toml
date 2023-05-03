@@ -34,7 +34,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 tinycss2 = "^1.2.1"
-typer = "^0.7.0"
+typer = ">=0.7,<0.10"
 webencodings = "^0.5.1"
 
 [tool.poetry.group.dev.dependencies]
