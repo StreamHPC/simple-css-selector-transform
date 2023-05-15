@@ -2,14 +2,14 @@
 
 [[package]]
 name = "astroid"
-version = "2.15.0"
+version = "2.15.5"
 description = "An abstract syntax tree for Python with inference support."
 category = "dev"
 optional = false
 python-versions = ">=3.7.2"
 files = [
-    {file = "astroid-2.15.0-py3-none-any.whl", hash = "sha256:e3e4d0ffc2d15d954065579689c36aac57a339a4679a679579af6401db4d3fdb"},
-    {file = "astroid-2.15.0.tar.gz", hash = "sha256:525f126d5dc1b8b0b6ee398b33159105615d92dc4a17f2cd064125d57f6186fa"},
+    {file = "astroid-2.15.5-py3-none-any.whl", hash = "sha256:078e5212f9885fa85fbb0cf0101978a336190aadea6e13305409d099f71b2324"},
+    {file = "astroid-2.15.5.tar.gz", hash = "sha256:1039262575027b441137ab4a62a793a9b43defb42c32d5670f38686207cd780f"},
 ]
 
 [package.dependencies]
